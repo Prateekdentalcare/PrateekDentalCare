@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-[#48b5c4] shrink-0" />
-                <a href="mailto:info@prateekdental.com" className="hover:text-[#48b5c4] transition-colors">info@prateekdental.com</a>
+                <a href={`mailto:${siteConfig.email}`} className="hover:text-[#48b5c4] transition-colors">{siteConfig.email}</a>
               </li>
               <li className="flex items-start gap-3">
                 <Clock size={18} className="text-[#48b5c4] shrink-0 mt-0.5" />

@@ -4,7 +4,7 @@ export const siteConfig = {
   description:
     'Prateek Dental Care offers modern dental treatments, implants, orthodontics, and preventive care in Wakad, Pune.',
   telephone: ['+91 72298 32893', '+91 70283 32893'],
-  email: 'info@prateekdental.com',
+  email: 'prateekdentalcare@gmail.com',
   address: {
     streetAddress: 'shop no 205, Kaspate Wasti Rd, near police lines, Vishnu Dev Nagar, Wakad',
     addressLocality: 'Pune, Pimpri-Chinchwad',

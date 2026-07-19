@@ -57,7 +57,7 @@ export default function ClinicLocation() {
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-900 mb-1">Email Address</p>
-                <p className="text-[13px] text-gray-500 font-light">info@prateekdental.com</p>
+                <p className="text-[13px] text-gray-500 font-light">{siteConfig.email}</p>
               </div>
             </div>
 
