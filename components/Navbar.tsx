@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import AutoScrollLink from './AutoScrollLink';
 import NavbarDesktopNav from './NavbarDesktopNav';
 import NavbarMobileMenu from './NavbarMobileMenu';
 
@@ -13,6 +14,12 @@ export default function Navbar() {
         </Link>
 
         <NavbarDesktopNav />
+        <AutoScrollLink
+          href="/#booking"
+          className="hidden lg:inline-flex bg-[#48b5c4] text-white px-6 py-2.5 rounded-full text-xs font-medium hover:bg-[#3da3b1] transition-colors shadow-sm"
+        >
+          Booking
+        </AutoScrollLink>
         <NavbarMobileMenu />
       </div>
     </nav>
