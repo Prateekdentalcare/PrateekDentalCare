@@ -27,7 +27,7 @@ export const siteConfig = {
     { dayOfWeek: 'Sunday', opens: '00:00', closes: '23:59' },
   ],
   display: {
-    phone: '72298 32893, 70283 32893',
+    phone: '+91 72298 32893, +91 70283 32893',
     address:
       'shop no 205, Kaspate Wasti Rd, near police lines, Vishnu Dev Nagar, Wakad, Pune, Pimpri-Chinchwad, Maharashtra 411057',
     hours: 'Open 24 hours',
